@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "575174174190",
+    "firebase_url": "https://babyphonefinal-default-rtdb.firebaseio.com",
+    "project_id": "babyphonefinal",
+    "storage_bucket": "babyphonefinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575174174190:android:537a84726167eda7135aff",
+        "android_client_info": {
+          "package_name": "com.example.babyphone2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575174174190-jbfcrcdolo2tvrbe73hfn1lr5ohn62eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKebDIx8V0E8wQJCG7WapwIAFLUuXkGeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575174174190-jbfcrcdolo2tvrbe73hfn1lr5ohn62eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575174174190:android:0334a089e264c0fb135aff",
+        "android_client_info": {
+          "package_name": "com.example.babyphone2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575174174190-jbfcrcdolo2tvrbe73hfn1lr5ohn62eu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKebDIx8V0E8wQJCG7WapwIAFLUuXkGeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "575174174190-jbfcrcdolo2tvrbe73hfn1lr5ohn62eu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

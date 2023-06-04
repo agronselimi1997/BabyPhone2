@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.babyphone2.fragments.LogIn"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_childFather"
+            app:destination="@id/childFather" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.babyphone2.fragments.Register"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/childFather"
+        android:name="com.example.babyphone2.fragments.ChildFather"
+        android:label="child_father_fragment"
+        tools:layout="@layout/child_father_fragment" >
+        <action
+            android:id="@+id/action_childFather_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_childFather_to_qrCode"
+            app:destination="@id/qrCode" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.babyphone2.bottomNavBar.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/qrCode"
+        android:name="com.example.babyphone2.fragments.QrCode"
+        android:label="qr_code_fragment"
+        tools:layout="@layout/qr_code_fragment" >
+        <action
+            android:id="@+id/action_qrCode_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+</navigation>

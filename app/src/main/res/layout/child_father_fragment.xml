@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ChildFather">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="This is a ?"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNameEditText" />
+
+    <Button
+        android:id="@+id/parentPhoneBtn"
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:text="Parent Phone"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/childPhoneBtn"
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:text="Child Phone"
+        app:layout_constraintEnd_toEndOf="@+id/parentPhoneBtn"
+        app:layout_constraintStart_toStartOf="@+id/parentPhoneBtn"
+        app:layout_constraintTop_toBottomOf="@+id/parentPhoneBtn" />
+
+    <EditText
+        android:id="@+id/phoneNameEditText"
+        android:layout_width="340dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="324dp"
+        android:ems="10"
+        android:hint="Enter a phone name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
